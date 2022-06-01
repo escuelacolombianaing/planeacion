@@ -1,0 +1,107 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  padding: 0px !important;
+}
+body {
+	font-family: 'Arsenal', sans-serif !important;
+}
+.jumbotron {
+	color: #fff;
+	background: url(../img/img-portada.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: 20px 0;
+	font-family: 'Arsenal', sans-serif !important;
+}
+.jumbotron h1{
+	color: #fff !important;
+	font-family: 'Arsenal', sans-serif;
+	text-shadow: 3px 3px 7px rgba(0, 0, 0, .5) !important;
+	-webkit-text-shadow: 3px 3px 7px rgba(0, 0, 0, .5) !important;
+	-moz-text-shadow: 3px 3px 7px rgba(0, 0, 0, .5) !important;
+	-o-text-shadow: 3px 3px 7px rgba(0, 0, 0, .5) !important;
+}
+.jumbotron h2{
+	color: #fff;
+	font-family: 'Arsenal', sans-serif;
+	letter-spacing: 1px;
+	text-shadow: 3px 3px 7px rgba(0, 0, 0, .5) !important;
+	-webkit-text-shadow: 3px 3px 7px rgba(0, 0, 0, .5) !important;
+	-moz-text-shadow: 3px 3px 7px rgba(0, 0, 0, .5) !important;
+	-o-text-shadow: 3px 3px 7px rgba(0, 0, 0, .5) !important;
+}
+.jumbotron button{
+	font-family: 'Arsenal', sans-serif;
+	font-size: 20px;
+}
+.inscripcion {
+	background: rgba(153, 0, 0, .5);
+	padding: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-o-border-radius: 15px;
+	border-radius: 15px;
+	color: #fff !important;
+}
+.formulario {
+	background: rgba(0, 0, 0, .5);
+	padding: 20px;
+	font-family: 'Arsenal', sans-serif !important;
+	letter-spacing: 1px;
+}
+.franjaColor{
+	background: #59514A;
+	color: white !important;
+}
+
+nav{
+	padding: 15px !important;
+	font-size: 18px !important;
+	background: #FAF8F5 !important;
+}
+.nav > li.active > a {
+	background: #A6968D !important;
+}
+.nav > li > a {
+	color: #59514A;
+}
+.nav > li > a:hover {
+	color: #8C8074;
+	background: #F2EAE4 !important;
+}
+.glyphicon-home, .glyphicon-paperclip, .glyphicon-duplicate, .glyphicon-eye-open, .glyphicon-list-alt, .glyphicon-file {
+	margin-right: 5px !important;
+}
+.colIzquierda, .colDerecha, .filaCompleta{
+	padding: 20px 40px !important;
+}
+.colorFormulario {
+	background: #F2F2F2;
+	padding: 20px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-o-border-radius: 15px;
+	border-radius: 15px;
+	margin-bottom: 15px;
+}
+.colorFormulario2 {
+	
+	padding: 20px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-o-border-radius: 15px;
+	border-radius: 15px;
+	margin-bottom: 15px;
+}
+h4.panel-title{
+	font-family: 'Arsenal', sans-serif !important;
+}
+.footerContainer {
+	background: #CCCCCC;
+	padding: 20px;
+}
