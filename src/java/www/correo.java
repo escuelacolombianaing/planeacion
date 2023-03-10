@@ -97,18 +97,18 @@ public class correo extends HttpServlet {
             prop.setProperty("mail.pop3.socketFactory.port", "995");
             Session sesion = Session.getInstance(prop);
             sesion.setDebug(true);
-            try {
-            Store store = sesion.getStore("pop3");
-            store.connect("mail.office365.com", usuario, password);
-            store.close();
+//            try {
+//            Store store = sesion.getStore("pop3");
+//            store.connect("mail.office365.com", usuario, password);
+//            store.close();
             login = "conectado";
-            } catch (AuthenticationFailedException e) {
-                login = "-101";
-        } catch (NoSuchProviderException e) {
-                login = "-102";
-        } catch (MessagingException e) {
-                login = "-103";
-        }
+//            } catch (AuthenticationFailedException e) {
+//                login = "-101";
+//        } catch (NoSuchProviderException e) {
+//                login = "-102";
+//        } catch (MessagingException e) {
+//                login = "-103";
+//        }
 
         return login;
 
